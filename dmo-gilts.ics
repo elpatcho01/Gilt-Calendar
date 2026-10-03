@@ -1,0 +1,716 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Patrick//DMO Gilt Ops 2026-27//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:DMO Gilt Operations 2026-27
+X-WR-TIMEZONE:Europe/London
+BEGIN:VTIMEZONE
+TZID:Europe/London
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0100
+TZNAME:BST
+DTSTART:19700329T010000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0000
+TZNAME:GMT
+DTSTART:19701025T020000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:dmo-2627-001@patrick-gilt-cal
+DTSTAMP:20261002T072249Z
+DTSTART;TZID=Europe/London:20261006T090000
+DTEND;TZID=Europe/London:20261006T100000
+SUMMARY:UKTI | 1⅛ 35 | Auction | £1.25bn confirmed
+DESCRIPTION:Sector: Index-linked\nSize: £1.25bn (CONFIRMED) nominal\nBasis
+ : Size announced by DMO on 29 Sep 2026.\nBidding window 09:00–10:00 Lond
+ on\; result typically within ~30 min of close.\nPAOF (25%) window 12:30–
+ 13:00.\nSize announced: 15:30 Tue 29 Sep 2026 (done)\nSource: DMO Q3 calen
+ dar https://www.dmo.gov.uk/media/qpeksrc0/pr280826.pdf
+STATUS:CONFIRMED
+CATEGORIES:DMO Auction
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:UKTI | 1⅛ 35 | Auction | £1.25bn confirmed
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:dmo-2627-002@patrick-gilt-cal
+DTSTAMP:20261002T072249Z
+DTSTART;TZID=Europe/London:20261014T090000
+DTEND;TZID=Europe/London:20261014T100000
+SUMMARY:Conv | 4⅝ 30 | Auction | est £4.25bn
+DESCRIPTION:Sector: Short conventional\nSize: est £4.25bn (range £4.0–5
+ .0bn\, nominal)\nBasis: Second auction\; launched 10 Sep at £5.0bn. Short
+  auction pot (~£35.3bn cash over 8 auctions) implies trimming toward ~£4
+ bn average.\nBidding window 09:00–10:00 London\; result typically within
+  ~30 min of close.\nPAOF (25%) window 12:30–13:00.\nSize announced: 15:3
+ 0 Wed 7 Oct 2026\nSource: DMO Q3 calendar https://www.dmo.gov.uk/media/qpe
+ ksrc0/pr280826.pdf
+STATUS:CONFIRMED
+CATEGORIES:DMO Auction
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Conv | 4⅝ 30 | Auction | est £4.25bn
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:dmo-2627-003@patrick-gilt-cal
+DTSTAMP:20261002T072249Z
+DTSTART;TZID=Europe/London:20261020T090000
+DTEND;TZID=Europe/London:20261020T100000
+SUMMARY:Conv | 4⅞ 36 | Auction | est £4.0bn
+DESCRIPTION:Sector: Medium conventional\nSize: est £4.0bn (range £3.75–
+ 4.25bn\, nominal)\nBasis: Last three: £4.25bn (16 Jul)\, £4.0bn (18 Aug)
+ \, £4.25bn (29 Sep).\nBidding window 09:00–10:00 London\; result typica
+ lly within ~30 min of close.\nPAOF (25%) window 12:30–13:00.\nSize annou
+ nced: 15:30 Tue 13 Oct 2026\nSource: DMO Q3 calendar https://www.dmo.gov.u
+ k/media/qpeksrc0/pr280826.pdf
+STATUS:CONFIRMED
+CATEGORIES:DMO Auction
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Conv | 4⅞ 36 | Auction | est £4.0bn
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:dmo-2627-004@patrick-gilt-cal
+DTSTAMP:20261002T072249Z
+DTSTART;TZID=Europe/London:20261022T090000
+DTEND;TZID=Europe/London:20261022T100000
+SUMMARY:UKTI | 0⅛ 31 | Auction | est £1.0bn
+DESCRIPTION:Sector: Index-linked\nSize: est £1.0bn (range £0.75–1.25bn\
+ , nominal)\nBasis: Last auction £1.25bn (1 Jul). IL auction pot ~£5.3bn 
+ cash for 6 auctions incl. 6 Oct\, so tight. Cash ≈ 1.4x nominal (rough).
+ \nBidding window 09:00–10:00 London\; result typically within ~30 min of
+  close.\nPAOF (25%) window 12:30–13:00.\nSize announced: 15:30 Thu 15 Oc
+ t 2026\nSource: DMO Q3 calendar https://www.dmo.gov.uk/media/qpeksrc0/pr28
+ 0826.pdf
+STATUS:CONFIRMED
+CATEGORIES:DMO Auction
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:UKTI | 0⅛ 31 | Auction | est £1.0bn
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:dmo-2627-005@patrick-gilt-cal
+DTSTAMP:20261002T072249Z
+DTSTART;TZID=Europe/London:20261027T090000
+DTEND;TZID=Europe/London:20261027T100000
+SUMMARY:Conv | 4⅝ 32 | Auction | est £4.25bn
+DESCRIPTION:Sector: Short conventional\nSize: est £4.25bn (range £4.0–4
+ .75bn\, nominal)\nBasis: Prior: £4.25bn (4 Aug launch)\, £4.75bn (22 Sep
+ ). Day before the Budget.\nBidding window 09:00–10:00 London\; result ty
+ pically within ~30 min of close.\nPAOF (25%) window 12:30–13:00.\nSize a
+ nnounced: 15:30 Tue 20 Oct 2026\nSource: DMO Q3 calendar https://www.dmo.g
+ ov.uk/media/qpeksrc0/pr280826.pdf
+STATUS:CONFIRMED
+CATEGORIES:DMO Auction
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Conv | 4⅝ 32 | Auction | est £4.25bn
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:dmo-2627-006@patrick-gilt-cal
+DTSTAMP:20261002T072249Z
+DTSTART;TZID=Europe/London:20261103T090000
+DTEND;TZID=Europe/London:20261103T100000
+SUMMARY:Conv | 4⅝ Green 37 | Auction | est £3.25bn
+DESCRIPTION:Sector: Medium conventional (green)\nSize: est £3.25bn (range 
+ £3.0–3.5bn\, nominal)\nBasis: Last £3.25bn (2 Jul). Green target £12b
+ n cash in 2026-27. NO PAOF at green auctions.\nPost-Budget: sizing subject
+  to the 28 Oct remit revision.\nBidding window 09:00–10:00 London\; resu
+ lt typically within ~30 min of close.\nNo PAOF (green gilt).\nSize announc
+ ed: 15:30 Tue 27 Oct 2026\nSource: DMO Q3 calendar https://www.dmo.gov.uk/
+ media/qpeksrc0/pr280826.pdf
+STATUS:CONFIRMED
+CATEGORIES:DMO Auction
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Conv | 4⅝ Green 37 | Auction | est £3.25bn
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:dmo-2627-007@patrick-gilt-cal
+DTSTAMP:20261002T072249Z
+DTSTART;TZID=Europe/London:20261110T090000
+DTEND;TZID=Europe/London:20261110T100000
+SUMMARY:Conv | 5⅜ 56 | Auction | est £2.5bn
+DESCRIPTION:Sector: Long conventional\nSize: est £2.5bn (range £2.0–2.7
+ 5bn\, nominal)\nBasis: First long auction of the FY. Long auction pot £7.
+ 4bn cash untouched\; assumes 3 long auctions remain. Syndicated £4.25bn o
+ n 8 Sep.\nPost-Budget: sizing subject to the 28 Oct remit revision.\nBiddi
+ ng window 09:00–10:00 London\; result typically within ~30 min of close.
+ \nPAOF (25%) window 12:30–13:00.\nSize announced: 15:30 Tue 3 Nov 2026\n
+ Source: DMO Q3 calendar https://www.dmo.gov.uk/media/qpeksrc0/pr280826.pdf
+STATUS:CONFIRMED
+CATEGORIES:DMO Auction
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Conv | 5⅜ 56 | Auction | est £2.5bn
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:dmo-2627-008@patrick-gilt-cal
+DTSTAMP:20261002T072249Z
+DTSTART;TZID=Europe/London:20261112T090000
+DTEND;TZID=Europe/London:20261112T100000
+SUMMARY:Conv | 4⅛ 33 | Auction | est £4.0bn
+DESCRIPTION:Sector: Short conventional (DMO classification)\nSize: est £4.
+ 0bn (range £3.75–4.25bn\, nominal)\nBasis: Last two auctions £4.0bn (7
+  Jul\, 25 Aug).\nPost-Budget: sizing subject to the 28 Oct remit revision.
+ \nBidding window 09:00–10:00 London\; result typically within ~30 min of
+  close.\nPAOF (25%) window 12:30–13:00.\nSize announced: 15:30 Thu 5 Nov
+  2026\nSource: DMO Q3 calendar https://www.dmo.gov.uk/media/qpeksrc0/pr280
+ 826.pdf
+STATUS:CONFIRMED
+CATEGORIES:DMO Auction
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Conv | 4⅛ 33 | Auction | est £4.0bn
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:dmo-2627-009@patrick-gilt-cal
+DTSTAMP:20261002T072249Z
+DTSTART;TZID=Europe/London:20261117T090000
+DTEND;TZID=Europe/London:20261117T100000
+SUMMARY:Conv | 5¼ 41 | Auction | est £3.25bn
+DESCRIPTION:Sector: Medium conventional\nSize: est £3.25bn (range £3.0–
+ 3.75bn\, nominal)\nBasis: 15y medium\; syndicated £9.0bn on 9 Jun. Medium
+  pot ~£26.8bn over 7 auctions implies ~£3.5–4bn average.\nPost-Budget:
+  sizing subject to the 28 Oct remit revision.\nBidding window 09:00–10:0
+ 0 London\; result typically within ~30 min of close.\nPAOF (25%) window 12
+ :30–13:00.\nSize announced: 15:30 Tue 10 Nov 2026\nSource: DMO Q3 calend
+ ar https://www.dmo.gov.uk/media/qpeksrc0/pr280826.pdf
+STATUS:CONFIRMED
+CATEGORIES:DMO Auction
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Conv | 5¼ 41 | Auction | est £3.25bn
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:dmo-2627-010@patrick-gilt-cal
+DTSTAMP:20261002T072249Z
+DTSTART;TZID=Europe/London:20261201T090000
+DTEND;TZID=Europe/London:20261201T100000
+SUMMARY:Conv | 4⅝ 32 | Auction | est £4.0bn
+DESCRIPTION:Sector: Short conventional\nSize: est £4.0bn (range £3.75–4
+ .5bn\, nominal)\nBasis: Third auction of the 2032s this FY.\nPost-Budget: 
+ sizing subject to the 28 Oct remit revision.\nBidding window 09:00–10:00
+  London\; result typically within ~30 min of close.\nPAOF (25%) window 12:
+ 30–13:00.\nSize announced: 15:30 Tue 24 Nov 2026\nSource: DMO Q3 calenda
+ r https://www.dmo.gov.uk/media/qpeksrc0/pr280826.pdf
+STATUS:CONFIRMED
+CATEGORIES:DMO Auction
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Conv | 4⅝ 32 | Auction | est £4.0bn
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:dmo-2627-011@patrick-gilt-cal
+DTSTAMP:20261002T072249Z
+DTSTART;TZID=Europe/London:20261208T090000
+DTEND;TZID=Europe/London:20261208T100000
+SUMMARY:Conv | 4⅞ 36 | Auction | est £4.0bn
+DESCRIPTION:Sector: Medium conventional\nSize: est £4.0bn (range £3.5–4
+ .25bn\, nominal)\nBasis: Medium benchmark build continues.\nPost-Budget: s
+ izing subject to the 28 Oct remit revision.\nBidding window 09:00–10:00 
+ London\; result typically within ~30 min of close.\nPAOF (25%) window 12:3
+ 0–13:00.\nSize announced: 15:30 Tue 1 Dec 2026\nSource: DMO Q3 calendar 
+ https://www.dmo.gov.uk/media/qpeksrc0/pr280826.pdf
+STATUS:CONFIRMED
+CATEGORIES:DMO Auction
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Conv | 4⅞ 36 | Auction | est £4.0bn
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:dmo-2627-012@patrick-gilt-cal
+DTSTAMP:20261002T072249Z
+DTSTART;TZID=Europe/London:20261210T090000
+DTEND;TZID=Europe/London:20261210T100000
+SUMMARY:Conv | 4⅝ 30 | Auction | est £4.0bn
+DESCRIPTION:Sector: Short conventional\nSize: est £4.0bn (range £3.75–4
+ .5bn\, nominal)\nBasis: Third auction of the 2030s.\nPost-Budget: sizing s
+ ubject to the 28 Oct remit revision.\nBidding window 09:00–10:00 London\
+ ; result typically within ~30 min of close.\nPAOF (25%) window 12:30–13:
+ 00.\nSize announced: 15:30 Thu 3 Dec 2026\nSource: DMO Q3 calendar https:/
+ /www.dmo.gov.uk/media/qpeksrc0/pr280826.pdf
+STATUS:CONFIRMED
+CATEGORIES:DMO Auction
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Conv | 4⅝ 30 | Auction | est £4.0bn
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:dmo-2627-013@patrick-gilt-cal
+DTSTAMP:20261002T072249Z
+DTSTART;TZID=Europe/London:20261007T090000
+DTEND;TZID=Europe/London:20261007T100000
+SUMMARY:Conv | 1 or 2 gilts TBC | Tender | est £1.0–2.0bn
+DESCRIPTION:Programmatic gilt tender: Conventional (1 or 2 gilts)\nSize: es
+ t £1.0–2.0bn total (nominal)\nBasis: DMO sought views 30 Sep\; gilt(s) 
+ and size due 07:30 Fri 2 Oct. Recent comp: 15 Sep £1.25bn 0½% 2029 + £0
+ .75bn 4¼% 2040.\nGilt(s) and max size confirmed ≥2 business days ahead.
+  Proceeds drawn from the unallocated portion (£14.75bn left at 29 Sep).\n
+ Window 09:00–10:00 (second tender\, if any\, 10:30–11:30).\nSource: ht
+ tps://www.dmo.gov.uk/media/qpeksrc0/pr280826.pdf
+STATUS:CONFIRMED
+CATEGORIES:DMO Tender
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Conv | 1 or 2 gilts TBC | Tender | est £1.0–2.0bn
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:dmo-2627-014@patrick-gilt-cal
+DTSTAMP:20261002T072249Z
+DTSTART;TZID=Europe/London:20261013T090000
+DTEND;TZID=Europe/London:20261013T100000
+SUMMARY:Conv | long\, gilt TBC | Tender | est £0.5–0.75bn
+DESCRIPTION:Programmatic gilt tender: Long conventional\nSize: est £0.5–
+ 0.75bn (nominal)\nBasis: Replaced a planned conventional auction. Recent l
+ ong tender: £500m 4% 2063 (23 Jul).\nGilt(s) and max size confirmed ≥2 
+ business days ahead. Proceeds drawn from the unallocated portion (£14.75b
+ n left at 29 Sep).\nWindow 09:00–10:00 (second tender\, if any\, 10:30
+ –11:30).\nSource: https://www.dmo.gov.uk/media/qpeksrc0/pr280826.pdf
+STATUS:CONFIRMED
+CATEGORIES:DMO Tender
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Conv | long\, gilt TBC | Tender | est £0.5–0.75bn
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:dmo-2627-015@patrick-gilt-cal
+DTSTAMP:20261002T072249Z
+DTSTART;TZID=Europe/London:20261029T090000
+DTEND;TZID=Europe/London:20261029T100000
+SUMMARY:Conv/UKTI | gilt TBC | Tender | est £0.5–1.5bn
+DESCRIPTION:Programmatic gilt tender: Conventional and/or index-linked\nSiz
+ e: est £0.5–1.5bn (nominal)\nBasis: Day after the Budget\; the IL optio
+ n suggests DMO may supplement the tight IL auction pot from unallocated.\n
+ Gilt(s) and max size confirmed ≥2 business days ahead. Proceeds drawn fr
+ om the unallocated portion (£14.75bn left at 29 Sep).\nWindow 09:00–10:
+ 00 (second tender\, if any\, 10:30–11:30).\nSource: https://www.dmo.gov.
+ uk/media/qpeksrc0/pr280826.pdf
+STATUS:CONFIRMED
+CATEGORIES:DMO Tender
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Conv/UKTI | gilt TBC | Tender | est £0.5–1.5bn
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:dmo-2627-016@patrick-gilt-cal
+DTSTAMP:20261002T072249Z
+DTSTART;TZID=Europe/London:20261119T090000
+DTEND;TZID=Europe/London:20261119T100000
+SUMMARY:Conv | gilt TBC | Tender | est £1.0–2.0bn
+DESCRIPTION:Programmatic gilt tender: Conventional\nSize: est £1.0–2.0bn
+  (nominal)\nBasis: Recent tender days have raised ~£1.5–2.0bn total.\nG
+ ilt(s) and max size confirmed ≥2 business days ahead. Proceeds drawn fro
+ m the unallocated portion (£14.75bn left at 29 Sep).\nWindow 09:00–10:0
+ 0 (second tender\, if any\, 10:30–11:30).\nSource: https://www.dmo.gov.u
+ k/media/qpeksrc0/pr280826.pdf
+STATUS:CONFIRMED
+CATEGORIES:DMO Tender
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Conv | gilt TBC | Tender | est £1.0–2.0bn
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:dmo-2627-017@patrick-gilt-cal
+DTSTAMP:20261002T072249Z
+DTSTART;TZID=Europe/London:20261124T083000
+DTEND;TZID=Europe/London:20261124T123000
+SUMMARY:UKTI | new or existing\, TBC | Syndication | est £3.5bn (date TBC)
+DESCRIPTION:DMO plan: one IL syndication in November 2026 (date announced ~
+ 2 weeks ahead). 24 Nov is my placeholder.\nSize: est £3.5bn nominal (rang
+ e £3.0–4.5bn\; lower nominal if an existing high index-ratio linker).\n
+ Basis: IL syndication programme £8.25bn cash\, £4.77bn done (14 Jul: £4
+ .75bn 1¾% IL 2038)\, leaving ~£3.5bn\, plus up to 10% end-of-programme f
+ lex.\nSources: https://www.dmo.gov.uk/media/qpeksrc0/pr280826.pdf | https:
+ //www.dmo.gov.uk/dmo_static_reports/currentremit.pdf
+STATUS:TENTATIVE
+CATEGORIES:DMO Syndication
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:UKTI | new or existing\, TBC | Syndication | est £3.5bn (date 
+ TBC)
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:dmo-2627-018@patrick-gilt-cal
+DTSTAMP:20261002T072249Z
+DTSTART;TZID=Europe/London:20270119T083000
+DTEND;TZID=Europe/London:20270119T123000
+SUMMARY:Conv | long\, TBC | Syndication #1 | est £5.5bn (provisional)
+DESCRIPTION:Not yet scheduled by DMO\; date is my placeholder (Q4 calendar 
+ expected late Nov/early Dec\, after the Budget).\nSize: est ~£5.5bn nomin
+ al (range £4.5–6.5bn).\nBasis: long conventional syndication programme 
+ £15.0bn cash\, ~£4.0bn done (8 Sep: £4.25bn 5⅜% 2056)\, leaving ~£11
+ bn over 2 transactions. Subject to the Budget remit revision.\nSources: ht
+ tps://www.dmo.gov.uk/media/ajmifgdv/pr230426_2.pdf | https://www.dmo.gov.u
+ k/dmo_static_reports/currentremit.pdf
+STATUS:TENTATIVE
+CATEGORIES:DMO Syndication
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Conv | long\, TBC | Syndication #1 | est £5.5bn (provisional)
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:dmo-2627-019@patrick-gilt-cal
+DTSTAMP:20261002T072249Z
+DTSTART;TZID=Europe/London:20270302T083000
+DTEND;TZID=Europe/London:20270302T123000
+SUMMARY:Conv | long\, TBC | Syndication #2 | est £5.5bn (provisional)
+DESCRIPTION:Not yet scheduled by DMO\; date is my placeholder (Q4 calendar 
+ expected late Nov/early Dec\, after the Budget).\nSize: est ~£5.5bn nomin
+ al (range £4.5–6.5bn).\nBasis: long conventional syndication programme 
+ £15.0bn cash\, ~£4.0bn done (8 Sep: £4.25bn 5⅜% 2056)\, leaving ~£11
+ bn over 2 transactions. Subject to the Budget remit revision.\nSources: ht
+ tps://www.dmo.gov.uk/media/ajmifgdv/pr230426_2.pdf | https://www.dmo.gov.u
+ k/dmo_static_reports/currentremit.pdf
+STATUS:TENTATIVE
+CATEGORIES:DMO Syndication
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Conv | long\, TBC | Syndication #2 | est £5.5bn (provisional)
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:dmo-2627-020@patrick-gilt-cal
+DTSTAMP:20261002T072249Z
+DTSTART;VALUE=DATE:20261028
+DTEND;VALUE=DATE:20261029
+SUMMARY:UK Autumn Budget 2026 + DMO remit revision
+DESCRIPTION:OBR forecast and revised 2026-27 financing remit. Expect re-bas
+ ed auction/syndication sizes from November and a revised Q4 calendar.
+STATUS:CONFIRMED
+CATEGORIES:Fiscal Event
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:dmo-2627-021@patrick-gilt-cal
+DTSTAMP:20261002T072249Z
+DTSTART;TZID=Europe/London:20270107T090000
+DTEND;TZID=Europe/London:20270107T100000
+SUMMARY:Conv | TBC | Auction | provisional
+DESCRIPTION:Conventional – gilt and sector TBC (Q4 calendar expected late
+  Nov/early Dec).\nPre-Budget remit-implied sizes: short ~£3.5bn\, medium 
+ ~£3.5bn\, long ~£2.4bn nominal. My assumed Q4 mix: 3 short\, 3 medium\, 
+ 2 long.\nExpect revision at the 28 Oct Budget.\nBidding window 09:00–10:
+ 00 London. PAOF 12:30–13:00 (not for green).\nSize announced: 15:30 Wed 
+ 30 Dec 2026 (assumed\; DMO shifts this ahead of the early market close on 
+ 31 Dec)\nDate/type per April 2026 remit calendar: https://www.dmo.gov.uk/m
+ edia/ajmifgdv/pr230426_2.pdf
+STATUS:TENTATIVE
+CATEGORIES:DMO Auction
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Conv | TBC | Auction | provisional
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:dmo-2627-022@patrick-gilt-cal
+DTSTAMP:20261002T072249Z
+DTSTART;TZID=Europe/London:20270112T090000
+DTEND;TZID=Europe/London:20270112T100000
+SUMMARY:UKTI | TBC | Auction | provisional
+DESCRIPTION:Index-linked – gilt TBC (Q4 calendar expected late Nov/early 
+ Dec).\nPre-Budget remit residual is only ~£0.6bn cash per IL auction\; ex
+ pect a top-up via the Budget revision and/or unallocated transfers. Planni
+ ng assumption: ~£0.75–1.0bn nominal (short/medium linker)\, £0.5–0.7
+ 5bn (long linker).\nBidding window 09:00–10:00 London. PAOF 12:30–13:0
+ 0 (not for green).\nSize announced: 15:30 Tue 5 Jan 2027\nDate/type per Ap
+ ril 2026 remit calendar: https://www.dmo.gov.uk/media/ajmifgdv/pr230426_2.
+ pdf
+STATUS:TENTATIVE
+CATEGORIES:DMO Auction
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:UKTI | TBC | Auction | provisional
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:dmo-2627-023@patrick-gilt-cal
+DTSTAMP:20261002T072249Z
+DTSTART;TZID=Europe/London:20270126T090000
+DTEND;TZID=Europe/London:20270126T100000
+SUMMARY:Conv | TBC | Auction | provisional
+DESCRIPTION:Conventional – gilt and sector TBC (Q4 calendar expected late
+  Nov/early Dec).\nPre-Budget remit-implied sizes: short ~£3.5bn\, medium 
+ ~£3.5bn\, long ~£2.4bn nominal. My assumed Q4 mix: 3 short\, 3 medium\, 
+ 2 long.\nExpect revision at the 28 Oct Budget.\nBidding window 09:00–10:
+ 00 London. PAOF 12:30–13:00 (not for green).\nSize announced: 15:30 Tue 
+ 19 Jan 2027\nDate/type per April 2026 remit calendar: https://www.dmo.gov.
+ uk/media/ajmifgdv/pr230426_2.pdf
+STATUS:TENTATIVE
+CATEGORIES:DMO Auction
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Conv | TBC | Auction | provisional
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:dmo-2627-024@patrick-gilt-cal
+DTSTAMP:20261002T072249Z
+DTSTART;TZID=Europe/London:20270127T090000
+DTEND;TZID=Europe/London:20270127T100000
+SUMMARY:Conv | TBC | Auction | provisional
+DESCRIPTION:Conventional – gilt and sector TBC (Q4 calendar expected late
+  Nov/early Dec).\nPre-Budget remit-implied sizes: short ~£3.5bn\, medium 
+ ~£3.5bn\, long ~£2.4bn nominal. My assumed Q4 mix: 3 short\, 3 medium\, 
+ 2 long.\nExpect revision at the 28 Oct Budget.\nBidding window 09:00–10:
+ 00 London. PAOF 12:30–13:00 (not for green).\nSize announced: 15:30 Wed 
+ 20 Jan 2027\nDate/type per April 2026 remit calendar: https://www.dmo.gov.
+ uk/media/ajmifgdv/pr230426_2.pdf
+STATUS:TENTATIVE
+CATEGORIES:DMO Auction
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Conv | TBC | Auction | provisional
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:dmo-2627-025@patrick-gilt-cal
+DTSTAMP:20261002T072249Z
+DTSTART;TZID=Europe/London:20270202T090000
+DTEND;TZID=Europe/London:20270202T100000
+SUMMARY:Conv | TBC | Auction | provisional
+DESCRIPTION:Conventional – gilt and sector TBC (Q4 calendar expected late
+  Nov/early Dec).\nPre-Budget remit-implied sizes: short ~£3.5bn\, medium 
+ ~£3.5bn\, long ~£2.4bn nominal. My assumed Q4 mix: 3 short\, 3 medium\, 
+ 2 long.\nExpect revision at the 28 Oct Budget.\nBidding window 09:00–10:
+ 00 London. PAOF 12:30–13:00 (not for green).\nSize announced: 15:30 Tue 
+ 26 Jan 2027\nDate/type per April 2026 remit calendar: https://www.dmo.gov.
+ uk/media/ajmifgdv/pr230426_2.pdf
+STATUS:TENTATIVE
+CATEGORIES:DMO Auction
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Conv | TBC | Auction | provisional
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:dmo-2627-026@patrick-gilt-cal
+DTSTAMP:20261002T072249Z
+DTSTART;TZID=Europe/London:20270209T090000
+DTEND;TZID=Europe/London:20270209T100000
+SUMMARY:UKTI | TBC | Auction | provisional
+DESCRIPTION:Index-linked – gilt TBC (Q4 calendar expected late Nov/early 
+ Dec).\nPre-Budget remit residual is only ~£0.6bn cash per IL auction\; ex
+ pect a top-up via the Budget revision and/or unallocated transfers. Planni
+ ng assumption: ~£0.75–1.0bn nominal (short/medium linker)\, £0.5–0.7
+ 5bn (long linker).\nBidding window 09:00–10:00 London. PAOF 12:30–13:0
+ 0 (not for green).\nSize announced: 15:30 Tue 2 Feb 2027\nDate/type per Ap
+ ril 2026 remit calendar: https://www.dmo.gov.uk/media/ajmifgdv/pr230426_2.
+ pdf
+STATUS:TENTATIVE
+CATEGORIES:DMO Auction
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:UKTI | TBC | Auction | provisional
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:dmo-2627-027@patrick-gilt-cal
+DTSTAMP:20261002T072249Z
+DTSTART;TZID=Europe/London:20270210T090000
+DTEND;TZID=Europe/London:20270210T100000
+SUMMARY:Conv | TBC | Auction | provisional
+DESCRIPTION:Conventional – gilt and sector TBC (Q4 calendar expected late
+  Nov/early Dec).\nPre-Budget remit-implied sizes: short ~£3.5bn\, medium 
+ ~£3.5bn\, long ~£2.4bn nominal. My assumed Q4 mix: 3 short\, 3 medium\, 
+ 2 long.\nExpect revision at the 28 Oct Budget.\nBidding window 09:00–10:
+ 00 London. PAOF 12:30–13:00 (not for green).\nSize announced: 15:30 Wed 
+ 3 Feb 2027\nDate/type per April 2026 remit calendar: https://www.dmo.gov.u
+ k/media/ajmifgdv/pr230426_2.pdf
+STATUS:TENTATIVE
+CATEGORIES:DMO Auction
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Conv | TBC | Auction | provisional
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:dmo-2627-028@patrick-gilt-cal
+DTSTAMP:20261002T072249Z
+DTSTART;TZID=Europe/London:20270216T090000
+DTEND;TZID=Europe/London:20270216T100000
+SUMMARY:Conv | TBC | Auction | provisional
+DESCRIPTION:Conventional – gilt and sector TBC (Q4 calendar expected late
+  Nov/early Dec).\nPre-Budget remit-implied sizes: short ~£3.5bn\, medium 
+ ~£3.5bn\, long ~£2.4bn nominal. My assumed Q4 mix: 3 short\, 3 medium\, 
+ 2 long.\nExpect revision at the 28 Oct Budget.\nBidding window 09:00–10:
+ 00 London. PAOF 12:30–13:00 (not for green).\nSize announced: 15:30 Tue 
+ 9 Feb 2027\nDate/type per April 2026 remit calendar: https://www.dmo.gov.u
+ k/media/ajmifgdv/pr230426_2.pdf
+STATUS:TENTATIVE
+CATEGORIES:DMO Auction
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Conv | TBC | Auction | provisional
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:dmo-2627-029@patrick-gilt-cal
+DTSTAMP:20261002T072249Z
+DTSTART;TZID=Europe/London:20270223T090000
+DTEND;TZID=Europe/London:20270223T100000
+SUMMARY:UKTI | TBC | Auction | provisional
+DESCRIPTION:Index-linked – gilt TBC (Q4 calendar expected late Nov/early 
+ Dec).\nPre-Budget remit residual is only ~£0.6bn cash per IL auction\; ex
+ pect a top-up via the Budget revision and/or unallocated transfers. Planni
+ ng assumption: ~£0.75–1.0bn nominal (short/medium linker)\, £0.5–0.7
+ 5bn (long linker).\nBidding window 09:00–10:00 London. PAOF 12:30–13:0
+ 0 (not for green).\nSize announced: 15:30 Tue 16 Feb 2027\nDate/type per A
+ pril 2026 remit calendar: https://www.dmo.gov.uk/media/ajmifgdv/pr230426_2
+ .pdf
+STATUS:TENTATIVE
+CATEGORIES:DMO Auction
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:UKTI | TBC | Auction | provisional
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:dmo-2627-030@patrick-gilt-cal
+DTSTAMP:20261002T072249Z
+DTSTART;TZID=Europe/London:20270304T090000
+DTEND;TZID=Europe/London:20270304T100000
+SUMMARY:Conv | TBC | Auction | provisional
+DESCRIPTION:Conventional – gilt and sector TBC (Q4 calendar expected late
+  Nov/early Dec).\nPre-Budget remit-implied sizes: short ~£3.5bn\, medium 
+ ~£3.5bn\, long ~£2.4bn nominal. My assumed Q4 mix: 3 short\, 3 medium\, 
+ 2 long.\nExpect revision at the 28 Oct Budget.\nBidding window 09:00–10:
+ 00 London. PAOF 12:30–13:00 (not for green).\nSize announced: 15:30 Thu 
+ 25 Feb 2027\nDate/type per April 2026 remit calendar: https://www.dmo.gov.
+ uk/media/ajmifgdv/pr230426_2.pdf
+STATUS:TENTATIVE
+CATEGORIES:DMO Auction
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Conv | TBC | Auction | provisional
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:dmo-2627-031@patrick-gilt-cal
+DTSTAMP:20261002T072249Z
+DTSTART;TZID=Europe/London:20270309T090000
+DTEND;TZID=Europe/London:20270309T100000
+SUMMARY:UKTI | TBC | Auction | provisional
+DESCRIPTION:Index-linked – gilt TBC (Q4 calendar expected late Nov/early 
+ Dec).\nPre-Budget remit residual is only ~£0.6bn cash per IL auction\; ex
+ pect a top-up via the Budget revision and/or unallocated transfers. Planni
+ ng assumption: ~£0.75–1.0bn nominal (short/medium linker)\, £0.5–0.7
+ 5bn (long linker).\nBidding window 09:00–10:00 London. PAOF 12:30–13:0
+ 0 (not for green).\nSize announced: 15:30 Tue 2 Mar 2027\nDate/type per Ap
+ ril 2026 remit calendar: https://www.dmo.gov.uk/media/ajmifgdv/pr230426_2.
+ pdf
+STATUS:TENTATIVE
+CATEGORIES:DMO Auction
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:UKTI | TBC | Auction | provisional
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:dmo-2627-032@patrick-gilt-cal
+DTSTAMP:20261002T072249Z
+DTSTART;TZID=Europe/London:20270323T090000
+DTEND;TZID=Europe/London:20270323T100000
+SUMMARY:Conv | TBC | Auction | provisional
+DESCRIPTION:Conventional – gilt and sector TBC (Q4 calendar expected late
+  Nov/early Dec).\nPre-Budget remit-implied sizes: short ~£3.5bn\, medium 
+ ~£3.5bn\, long ~£2.4bn nominal. My assumed Q4 mix: 3 short\, 3 medium\, 
+ 2 long.\nExpect revision at the 28 Oct Budget.\nBidding window 09:00–10:
+ 00 London. PAOF 12:30–13:00 (not for green).\nSize announced: 15:30 Tue 
+ 16 Mar 2027\nDate/type per April 2026 remit calendar: https://www.dmo.gov.
+ uk/media/ajmifgdv/pr230426_2.pdf
+STATUS:TENTATIVE
+CATEGORIES:DMO Auction
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Conv | TBC | Auction | provisional
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+END:VCALENDAR
